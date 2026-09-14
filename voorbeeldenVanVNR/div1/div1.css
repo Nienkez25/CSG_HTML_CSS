@@ -2,23 +2,23 @@ body {
     padding: 0;
     margin: 0;   
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
+    color: #00ff15f8;
 }
 
 #container {
-    margin: 2%;
-    border: 1px dashed #AAA;    
+    margin: 1%;
+    border: 1px dashed #33ff00;    
 }
 
 #hoofdpagina {
     display: flex;
-    width: 65%;
-    border: 1px dashed black;
+    width:100%;
+    border: 1px dashed rgba(0, 0, 0, 0.432);
 }
 
 #links {
     width: 70%;
-    background-color: lightsteelblue;
+    background-color: rgb(104, 85, 65);
     padding: 5% 2% 0% 2%;
 }
 
@@ -32,7 +32,7 @@ img {
 }
 
 #footer {
-    background-color: #333;
-    color: #DDD;
+    background-color: #6d9c6d;
+    color: #72967a;
     text-align: right;
 }

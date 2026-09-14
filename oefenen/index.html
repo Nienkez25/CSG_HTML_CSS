@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>oefenplek</title>
+        <title>voertuigen</title>
     </head>
     <body>
         <h1>oefenplek</h1>
-        <p>hier kun je lekker oefenen</p>
-        <a href="jiayan.html">duikboot</a>
+        <ol>
+          <li><a href="boot.html">boot</a></li>
+          <li><a href="vliegtuig.html">vliegtuig</a></li>
+          <li><a href="auto.html">auto</a></li>
+        </ol>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th colspan="3" class="toelichting"><em>thead</em>: titelrij van de tabel</th>
+                </tr>
+                <tr>
+                <th></th>
+                    <th>Naam</th>
+                    <th>Afkomst</th>
+                    <th>hoeveelheid</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5" class="toelichting" id="verticaal"><em>tbody</em>: de tabelgegevens</td>
+                </tr>
+                <tr>
+                    <td>slagschip</td>
+                    <td>roeiboot</td>
+                    <td>A380</td>
+                    <td>bommenwerper</td>
+                    <td>eend</td>
+                    <td>microlini</td>
+                </tr>
+                <tr class="benadruk">
+                    <td>roeiboot</td>
+                    <td>B2</td>
+                    <td>B3</td>
+                </tr>
+                <tr>
+                    <td>A380</td>
+                    <td>B3</td>
+                    <td>C3</td>
+                </tr>
+                <tr>
+                    <td>bommenwerper</td>
+                    <td>B4</td>
+                    <td class="benadruk">C4</td>
+                </tr>
+                <tr>
+                    <td>eend</td>
+                    <td>microlini</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
