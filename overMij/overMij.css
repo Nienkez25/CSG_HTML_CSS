@@ -3,3 +3,10 @@ body {
     font-family: 'garamond', 'american typewriter',Verdana, Geneva, Verdana, sans-serif;
     font-variant: small-caps;
 }
+
+.highlight {
+    color:orange;
+}
+.belangrijk {
+    color:green;
+}
