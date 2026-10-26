@@ -1,17 +1,37 @@
+*{
+    outline: 3px dotted rgb(95, 61, 61);
+}
+
 html, body {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background: #5d524c;
+    background: #5a0701;
     color: #c8c3bf;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     size: 14px;
-    padding-left: 10%;
 }
 
-#vogel {
-    width: 225px;
-    height: auto;
+.menubalk {
+    width:100%;
+    height:150px;
+    .menu {
+        width:150px;
+        height: 75px;
+        margin-left: 20px;
+        margin-top: 20px;
+}
+    }
+}
+
+.inhoud {
+    width:100%;
+    height:700px;
+}
+
+.pagina {
+    width:100%;
+    height:600px;
 }
