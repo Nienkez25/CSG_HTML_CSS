@@ -47,12 +47,19 @@ html, body {
 }
 
 .pagina {
-    width:100%;
+    width: 100%;
     height: 800px;
-    }
+    margin:30px;
+}
 
- .Elektrisch gitaar {
-     width: 600px;
-     height: 100px;
-     float: left;
-    }
+.gitaar {
+    width: 50px;
+    height: 200px;
+    background-color: #e6c4b5;
+    box-sizing: border-box;
+}
+
+#elektrisch gitaar{
+    width:500px;
+    height:300px;
+}
